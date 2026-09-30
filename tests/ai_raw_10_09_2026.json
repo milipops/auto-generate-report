@@ -1,0 +1,425 @@
+{
+ "date": "10.09.2026",
+ "machines": [
+  {
+   "machine": "151",
+   "operator": "Гудкова",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "cuts": 1,
+   "subs_count": 2,
+   "subs_fio": null,
+   "lines": [
+    {
+     "assortment": null,
+     "client": null,
+     "order_no": null,
+     "panels": null,
+     "counter_start": 750733,
+     "counter_end": 754129,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:00",
+     "end": null,
+     "kind": "навивка",
+     "reason": "машина в работе, продолжаю навивку шпулей, навито 105 из 303",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "07:57",
+     "end": "08:18",
+     "kind": "чинка",
+     "reason": "стоп машина, обрыв нити, сч 751459, ср сч 5768; 8:18 обрыв устранён силами оператора, машина в работе",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "08:23",
+     "end": "08:58",
+     "kind": "чинка",
+     "reason": "стоп машина, несоответствие в полотне (одна стренга), чинка полотна, чинка завершена, машина в работе",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "08:58",
+     "end": "09:26",
+     "kind": "наладка",
+     "reason": "стоп машина, обрыв нити, общ.сч 751713, ср сч 6022, вызвана служба наладки; 9:26 обрыв устранён, машина в работе",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "09:46",
+     "end": "10:03",
+     "kind": "чинка",
+     "reason": "стоп машина, чинка полотна, сч 751932, ср сч 6241; пуск машины в работу",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "10:03",
+     "end": "12:45",
+     "kind": "чинка",
+     "reason": "стоп машина, чинка полотна (одна стренга), сч 751999, ср сч 6308; вкл машину для поднятия узлов для чинки, стоп машина, продолжаю чинку полотна; 12:45 машина в работе",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": null,
+     "end": null,
+     "kind": "обед",
+     "reason": "Обед, сч 752202, ср сч 6511 (время в переписке не указано)",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "12:45",
+     "end": null,
+     "kind": "навивка",
+     "reason": "машина в работе, продолжаю навивать шпули",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "13:21",
+     "end": null,
+     "kind": "чинка",
+     "reason": "стоп машина, несоответствие полотна, сч 752572, ср сч 6881, чинка полотна, пуск в работу, продолжаю навивку шпулей",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "13:21",
+     "end": "15:40",
+     "kind": "наладка",
+     "reason": "стоп машина, машина в стопе, занимается наладчик, сч 753799, ср сч 8009",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "15:40",
+     "end": "18:41",
+     "kind": "чинка",
+     "reason": "стоп машина, чинка полотна, сч 753952, ср сч 8261; 18:41 остановка чинки полотна",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "18:41",
+     "end": "19:00",
+     "kind": "работа",
+     "reason": "остановка чинки полотна, заполнение информ. журнала; конец смены, сч 754129, полотно с дефектом «задир нити» (одна стренга), необходимо продолжить чинку",
+     "performer": null,
+     "other_machine": null
+    }
+   ]
+  },
+  {
+   "machine": "251",
+   "operator": "Арташина",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "cuts": 1,
+   "subs_count": 4,
+   "subs_fio": null,
+   "lines": [
+    {
+     "assortment": null,
+     "client": null,
+     "order_no": null,
+     "panels": null,
+     "counter_start": 274682,
+     "counter_end": 278755,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:00",
+     "end": "07:07",
+     "kind": "работа",
+     "reason": "начало смены, приём машины, обучение стажёра Демидова Е.",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "07:00",
+     "end": "16:00",
+     "kind": "работа",
+     "hours": 8.5,
+     "reason": "работа стажёра: мониторинг навивки шпулей, стоп и пуск машины, участие в замене бобин, ведение чата; работа стажёра окончена (8,5 часов)",
+     "performer": "Демидов",
+     "other_machine": null
+    },
+    {
+     "start": "07:07",
+     "end": "07:47",
+     "kind": "остановка",
+     "reason": "машина в стопе: ожидание решения руководства по полосам во время наладки; три полотна после наладки (23 узла наладочных) с полосами; навивка шпулей; об.сч. 274682",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "07:07",
+     "end": "07:45",
+     "kind": "работа",
+     "reason": "знакомство с проделанной работой по наладке шпульного стола, объяснение задачи со стороны Александра Р.: с первых 15 шпуль отрезать по 2 м нитки, мониторинг первых трёх и завершающих шпуль с занесением в протокол",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "07:07",
+     "end": "15:48",
+     "kind": "навивка",
+     "reason": "навивка шпулей под мониторинг по бланкам в течение смены; в 15:48 намотка завершена — насчитано 287 из 303, не хватает 16 (расширенные шпули)",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "07:47",
+     "end": "07:47",
+     "kind": "наладка",
+     "reason": "пуск машины совместно с наладчиком смены Пронкин А. по заданию пускать машину с полосами, без обнуления срезового счётчика",
+     "performer": "Пронкин",
+     "other_machine": null
+    },
+    {
+     "start": "10:16",
+     "end": "11:11",
+     "kind": "остановка",
+     "reason": "замена со стажёром полных бобин на расколотые по указанию руководства Погодиной Л.Е.; большие бобины срезаны и заменены на расколотые; об.сч. 275730; в 11:11 пуск машины",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "12:00",
+     "end": "12:45",
+     "kind": "обед",
+     "reason": "обед; об.сч. 276071; узлы со шпулярника прошли хорошо, без обрывов и пропусков",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "12:45",
+     "end": "14:45",
+     "kind": "работа",
+     "reason": "мониторинг навивки шпулей вместе со стажёром Демидовым Е.; завершён первый мониторинг шпулей; машина в работе (пуск в 12:45)",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "14:45",
+     "end": "15:23",
+     "kind": "работа",
+     "reason": "второй завершающий мониторинг навивки шпулей, развязывание лишних половинок шпулей; все протоколы переданы руководству участка НСУ-3",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "15:48",
+     "end": "16:00",
+     "kind": "работа",
+     "reason": "заполнение журнала",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "16:34",
+     "end": "16:38",
+     "kind": "остановка",
+     "reason": "машина остановилась сама: сошла шпулина — замена её на половинку, возможно пропущено при подмене; об.сч. 277761; пуск в 16:38",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "16:39",
+     "end": "17:00",
+     "kind": "работа",
+     "reason": "культура производства: взвешивание нити после развивки половинок (2 кг), транспортировка пустых гильз на весовую площадку, сложены в коробки, уборка площадки 251",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "18:45",
+     "end": "19:00",
+     "kind": "работа",
+     "reason": "заполнение журнала и чата; в 19:00 конец смены — стоп машина, об.сч. 278755",
+     "performer": null,
+     "other_machine": null
+    }
+   ]
+  },
+  {
+   "machine": "321",
+   "operator": "Олег",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "cuts": 3,
+   "subs_count": 2,
+   "subs_fio": "Сеньков, Петровский, Олег",
+   "lines": [
+    {
+     "assortment": null,
+     "client": null,
+     "order_no": null,
+     "panels": null,
+     "counter_start": 118526,
+     "counter_end": 118526,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:00",
+     "end": "14:04",
+     "kind": "подмена",
+     "reason": "машина в рабочем состоянии, поставлена на подмену; подмена шпулей: Сеньков подменил 86, Петровский 76, оператор навил и поставил ещё 18; подмена закончена в 14:04; счётчик за смену не изменился (об.сч. 118526)",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "07:00",
+     "end": "12:40",
+     "kind": "навивка",
+     "reason": "навивка шпуль на подмену с весовым контролем (навил 12 шпуль, далее до 162 из 180); транспортировка сырья для укладки бобин на помост шпульного стола; эл. рохля поставлена на зарядку",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "12:40",
+     "end": "14:04",
+     "kind": "навивка",
+     "reason": "навил ещё 18 шпуль на подмену (контроль веса не менее 975 гр шнура), сделал оставшуюся подмену; машина после подмены готова к пропуску узлов со шпулей",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "12:40",
+     "end": "14:04",
+     "kind": "подмена",
+     "reason": "подмена шпулей на шпулярнике — 86 шпуль",
+     "performer": "Сеньков",
+     "other_machine": null
+    },
+    {
+     "start": "12:40",
+     "end": "14:04",
+     "kind": "подмена",
+     "reason": "подмена шпулей на шпулярнике — 76 шпуль",
+     "performer": "Петровский",
+     "other_machine": null
+    },
+    {
+     "start": "14:04",
+     "end": "19:00",
+     "kind": "остановка",
+     "reason": "машина после подмены готова к пропуску узлов со шпулей, пуска в переписке нет; счётчик за смену не изменился",
+     "performer": null,
+     "other_machine": null
+    }
+   ]
+  },
+  {
+   "machine": "98",
+   "operator": "Белякова",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "cuts": 4,
+   "subs_count": 1,
+   "subs_fio": null,
+   "lines": [
+    {
+     "assortment": "187.3-28-250.5 зел",
+     "client": "Микаилов",
+     "order_no": "315",
+     "panels": null,
+     "counter_start": 21378750,
+     "counter_end": 21384900,
+     "counter_start_mid_shift": false
+    },
+    {
+     "assortment": "187.3-22-250.5 зел",
+     "client": "Микаилов",
+     "order_no": "315",
+     "panels": null,
+     "counter_start": 21384900,
+     "counter_end": 21387700,
+     "counter_start_mid_shift": false
+    },
+    {
+     "assortment": "187.3-51-250.5 зел",
+     "client": "СКЛАД",
+     "order_no": "39",
+     "panels": null,
+     "counter_start": 21387700,
+     "counter_end": 21387950,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:00",
+     "end": "08:30",
+     "kind": "наладка",
+     "reason": "ремонт, пуск машины в 8:30",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "10:05",
+     "end": "10:55",
+     "kind": "подмена",
+     "reason": "подмена шпулей, навивка шпулей 250 из 250 (развито 250 из 250)",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "15:25",
+     "end": "15:55",
+     "kind": "наладка",
+     "reason": "переход на др. ассортимент: Микаилов з. 315, 187.3-22-250.5 зел, Сч. 21384900",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "18:25",
+     "end": "18:30",
+     "kind": "наладка",
+     "reason": "переход на др. ассортимент: з. склад 39, 187.3-51-250.5 зел, Сч. 21387700",
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "07:00",
+     "end": "19:00",
+     "kind": "остановка",
+     "reason": "замена шпулярника в течении всей смены; в подработке: 6 маш. сделала подмену, вывязала, перешла на 78 маш.",
+     "performer": null,
+     "other_machine": null
+    }
+   ]
+  }
+ ],
+ "warnings": []
+}

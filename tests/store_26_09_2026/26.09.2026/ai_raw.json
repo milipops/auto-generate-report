@@ -1,0 +1,1253 @@
+{
+ "date": "26.09.2026",
+ "machines": [
+  {
+   "machine": "251",
+   "operator": "Гудкова",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "operator_norm_hours": null,
+   "cuts": 2,
+   "subs_count": 1,
+   "subs_fio": null,
+   "lines": [
+    {
+     "assortment": "днпа 187х6-100,0-151,5",
+     "client": null,
+     "order_no": null,
+     "panels": null,
+     "counter_start": 391938,
+     "counter_end": 303370,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:00",
+     "end": "07:45",
+     "kind": "наладка",
+     "reason": "увеличение скорости набора гарнитурного вала (согласовано с начальником службы наладки)",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "07:00",
+     "end": "07:45",
+     "kind": "навивка",
+     "reason": "продолжаю развивку шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "07:48",
+     "end": "07:54",
+     "kind": "чинка",
+     "reason": "стоп машина, чинка полотна",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "07:55",
+     "end": null,
+     "kind": "навивка",
+     "reason": "шпули назвиты, взвешивание",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "08:05",
+     "end": null,
+     "kind": "навивка",
+     "reason": "начинаю навивку шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "08:22",
+     "end": null,
+     "kind": "навивка",
+     "reason": "продолжаю навивку шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "08:30",
+     "end": "08:40",
+     "kind": "наладка",
+     "reason": "Смена размера, выставление параметров согласно задания",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "08:40",
+     "end": null,
+     "kind": "работа",
+     "reason": "Вывязывание полотна для оценки качества контролером",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "09:00",
+     "end": "09:07",
+     "kind": "чинка",
+     "reason": "Стоп машина, чинка полотна",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "09:10",
+     "end": "09:25",
+     "kind": "срез",
+     "reason": "Стоп машина для среза полотна, оформления бирок, замена телег",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "09:26",
+     "end": "09:31",
+     "kind": "чинка",
+     "reason": "Стоп машина Чинка полотна",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "09:40",
+     "end": "09:55",
+     "kind": "навивка",
+     "reason": "Продолжаю навивку шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "09:55",
+     "end": "10:00",
+     "kind": "остановка",
+     "reason": "Стоп машина, обрыв нити на полотне (периодически повторяется в одном и том же месте)",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "kind": "наладка",
+     "reason": "Наладка (регулировка тяг распределителя), обрыв часты обрыв нити по причине некорректного перевода нити",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "10:38",
+     "end": "11:42",
+     "kind": "навивка",
+     "reason": "навивка шпуль, навито 303 шпули",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "11:13",
+     "end": "11:17",
+     "kind": "чинка",
+     "reason": "Стоп машина, чинка полотна",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "11:17",
+     "end": "11:34",
+     "kind": "навивка",
+     "reason": "Продолжаю развивать 3 шпули, развивка 3х шпуль окончена Вес 2,8кг",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "11:33",
+     "end": null,
+     "kind": "работа",
+     "reason": "Запись в журнале",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "11:34",
+     "end": null,
+     "kind": "навивка",
+     "reason": "Произвожу навивку 3х шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "12:00",
+     "end": "12:45",
+     "kind": "обед",
+     "reason": "Обед",
+     "machine_kept_running": null,
+     "performer": null,
+     "other_machine": null
+    },
+    {
+     "start": "13:11",
+     "end": null,
+     "kind": "чинка",
+     "reason": "Стоп машина, чинка пропусков (2шт)",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "13:34",
+     "end": "14:30",
+     "kind": "наладка",
+     "reason": "несоответствие (повторное), вызвана служба наладки для определения причины возникновения повторных несоответствий, подтянул ролики натяжения нити, отодвинул часть подвижного распределителя на 2-3 мм",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "13:46",
+     "end": "14:43",
+     "kind": "работа",
+     "reason": "произвожу работы по заданию руководителя участка",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "14:43",
+     "end": "14:51",
+     "kind": "остановка",
+     "reason": "стоп машина сошла шпуля √1 Общ сч 303192, ср сч 324 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "15:05",
+     "end": "15:10",
+     "kind": "остановка",
+     "reason": "стоп машина Сошла шпуля √2 Общ сч 303290, ср сч 422 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "15:11",
+     "end": "15:17",
+     "kind": "остановка",
+     "reason": "стоп машина Сошла шпуля √3 Общ сч 303298, ср сч 430 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "15:19",
+     "end": "15:26",
+     "kind": "остановка",
+     "reason": "стоп машина Сошла шпуля √4 Общ сч 303304, ср сч 436 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "15:33",
+     "end": "15:40",
+     "kind": "остановка",
+     "reason": "стоп машина Сошла шпуля√5 Общ сч 303339, ср сч 471 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "15:40",
+     "end": "15:49",
+     "kind": "остановка",
+     "reason": "стоп машина Сошла шпуля√6 Общ сч 303341, ср сч 473 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "15:50",
+     "end": "15:56",
+     "kind": "остановка",
+     "reason": "стоп машина Сошла шпуля √7 Общ сч 303348, ср сч 480",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "15:58",
+     "end": "16:03",
+     "kind": "остановка",
+     "reason": "Стоп машина Сошла шпуля 8 Общ сч 303355, ср сч 487 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "16:05",
+     "end": "16:09",
+     "kind": "остановка",
+     "reason": "Стоп машина Сошла шпуля 9 Общ сч 303367, ср сч 499 из 730",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "16:10",
+     "end": null,
+     "kind": "подмена",
+     "reason": "Стоп машина Сошла шпуля 10 Общ сч 303370, ср сч 502, подмена Гудкова 130шт, Гузяев 23шт, Сеньков 86шт, осталось 64шт",
+     "performer": "Гудкова",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "16:30",
+     "end": "17:00",
+     "kind": "подмена",
+     "reason": "подмена 23шт",
+     "performer": "Гузяев",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "17:00",
+     "end": "18:45",
+     "kind": "подмена",
+     "reason": "подмена 86шт",
+     "performer": "Сеньков",
+     "other_machine": null,
+     "machine_kept_running": null
+    }
+   ]
+  },
+  {
+   "machine": "151",
+   "operator": "Петровский",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": null,
+   "operator_norm_hours": null,
+   "cuts": null,
+   "subs_count": null,
+   "subs_fio": null,
+   "lines": [],
+   "events": [
+    {
+     "start": "10:59",
+     "end": "11:03",
+     "kind": "работа",
+     "reason": "11:04: 10:59-11:03 стоп навивка. Петровский О помог поменять местами телегу с паллетом у шпульного стола 111 машины",
+     "performer": "Петровский",
+     "other_machine": "111",
+     "machine_kept_running": null
+    },
+    {
+     "start": "18:25",
+     "end": "19:00",
+     "kind": "наладка",
+     "reason": "18:25 приглашена на помощь наладчику в заправе 151; 18:25-19:00 совместная заправа с наладчиком Шалыминовым Н. основной нити на 151",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "18:25",
+     "end": "19:00",
+     "kind": "наладка",
+     "reason": "18:25 приглашена на помощь наладчику в заправе 151; 18:25-19:00 совместная заправа с наладчиком Шалыминовым Н. основной нити на 151",
+     "performer": "Арташина",
+     "other_machine": null,
+     "machine_kept_running": null
+    }
+   ]
+  },
+  {
+   "machine": "111",
+   "operator": "Арташина",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "operator_norm_hours": null,
+   "cuts": null,
+   "subs_count": null,
+   "subs_fio": "Абдуллаев, Гузяев",
+   "lines": [
+    {
+     "assortment": null,
+     "client": null,
+     "order_no": null,
+     "panels": null,
+     "counter_start": 226571,
+     "counter_end": 228935,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:05",
+     "end": "07:15",
+     "kind": "чинка",
+     "reason": "чинка полотна",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:18",
+     "end": "07:20",
+     "kind": "чинка",
+     "reason": "чинка",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:05",
+     "end": "07:24",
+     "kind": "чинка",
+     "reason": "вычинено 6 пропусков, машина в стопе была",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:33",
+     "end": null,
+     "kind": "навивка",
+     "reason": "начало навивки шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:41",
+     "end": null,
+     "kind": "остановка",
+     "reason": "вылетают шапочки втулок, стоп навивка, работа со шпулярником, машина на ходу",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:45",
+     "end": "07:55",
+     "kind": "наладка",
+     "reason": "идет опять пропуск в третем полотне по краю 8-го с переходом на 9-ый узел, приглашен наладчик Шалыминов Н., поправлен 9 челнок с левого края машины",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:45",
+     "end": null,
+     "kind": "навивка",
+     "reason": "продолжение навивки шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:12",
+     "end": null,
+     "kind": "чинка",
+     "reason": "пропуск вычинен на ходу машины",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:13",
+     "end": "08:16",
+     "kind": "остановка",
+     "reason": "стоп-навивка, сбор трех полотен в телеги",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:16",
+     "end": "08:20",
+     "kind": "работа",
+     "reason": "обход шпулярника, катушки слетают со шпилек шпулярника - поправляю",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:20",
+     "end": null,
+     "kind": "навивка",
+     "reason": "продолжение навивки шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:31",
+     "end": null,
+     "kind": "работа",
+     "reason": "стоп навивка, навито 34 шт из 450, обход полотен, особый контроль за третьим полотном, просматриваю края третьего полотна, анализ полотна на качество",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:38",
+     "end": "09:30",
+     "kind": "чинка",
+     "reason": "идут пропуска по краю дальнего полотна, обнаружены 9 пропусков, чинка пропусков",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "09:00",
+     "end": "09:30",
+     "kind": "наладка",
+     "reason": "наладка по причине пропусков, зашлефовал гребешок 8 челнока, выправил челнок",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "09:10",
+     "end": null,
+     "kind": "навивка",
+     "reason": "продолжение навивки шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "09:11",
+     "end": null,
+     "kind": "работа",
+     "reason": "стоп-навивка, совместная работа с наладчиком: наладчик работает по устранению пропусков, оператор чинит пропуска",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "09:54",
+     "end": null,
+     "kind": "работа",
+     "reason": "чинка пропусков завершена, сбор полотен в телеги",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "09:59",
+     "end": "10:03",
+     "kind": "работа",
+     "reason": "сбор телег закончен, обход шпулярника",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "10:03",
+     "end": "11:45",
+     "kind": "остановка",
+     "reason": "пропуска по краю третьего полотна (дальнего), общ.сч 228342",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "10:03",
+     "end": null,
+     "kind": "навивка",
+     "reason": "приступила к продолжению навивки шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "10:59",
+     "end": "11:03",
+     "kind": "работа",
+     "reason": "стоп навивка, Петровский О помог поменять местами телегу с паллетом у шпульного стола 111 машины",
+     "performer": "Петровский",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "11:03",
+     "end": "11:45",
+     "kind": "наладка",
+     "reason": "произведена замена челнока на имеющийся запасной, выравнивание крючка горизонтального гребня",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "11:03",
+     "end": null,
+     "kind": "работа",
+     "reason": "стоп навивка и совместная работа с наладчиком, оператор чинит пропуска",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "11:29",
+     "end": "11:32",
+     "kind": "остановка",
+     "reason": "сошла шпуля №1, общ.сч 228423, ср.сч 2342 из 2700",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "11:35",
+     "end": "11:35",
+     "kind": "остановка",
+     "reason": "сошла шпуля №2, общ.сч 228446, ср.сч 2365 из 2700",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "11:51",
+     "end": "11:54",
+     "kind": "остановка",
+     "reason": "сошла шпуля №3, общ.сч 228682, ср.сч 2601 из 2700",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:00",
+     "end": "12:45",
+     "kind": "обед",
+     "reason": "обед",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:46",
+     "end": "12:49",
+     "kind": "работа",
+     "reason": "укладка провязов с пола на телеги",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:49",
+     "end": null,
+     "kind": "навивка",
+     "reason": "продолжение навивки шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:51",
+     "end": "12:53",
+     "kind": "остановка",
+     "reason": "сошла шпуля №4, общ.сч 228875, ср.сч 2794 из 2700",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:54",
+     "end": "12:55",
+     "kind": "остановка",
+     "reason": "сошла шпуля №5, общ.сч 228882, ср.сч 2801 из 2700",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:57",
+     "end": "13:03",
+     "kind": "остановка",
+     "reason": "сошла шпуля №6, общ.сч 228890, ср.сч 2809 из 2700, визуальное оценивание остатка нити в шпулях",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "13:05",
+     "end": "13:11",
+     "kind": "остановка",
+     "reason": "сошла шпуля №7",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "13:12",
+     "end": "13:14",
+     "kind": "остановка",
+     "reason": "сошла шпуля №8, ставлю машину на подмену, общ.сч 228935, ср.сч 2854 из 2700, поставлено 7 шпулей, при дотягивании навязано +153 узла",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "13:26",
+     "end": null,
+     "kind": "навивка",
+     "reason": "продолжаю навивать шпули в количестве 357 шт",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "13:26",
+     "end": "16:30",
+     "kind": "подмена",
+     "reason": "подмена 230 шт",
+     "performer": "Гузяев",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "13:26",
+     "end": "18:25",
+     "kind": "подмена",
+     "reason": "подмена 370 шт",
+     "performer": "Абдуллаев",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "16:40",
+     "end": "18:25",
+     "kind": "подмена",
+     "reason": "подмена 150 шт",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "18:25",
+     "end": "19:00",
+     "kind": "работа",
+     "reason": "совместная заправа с наладчиком Шалыминовым Н. основной нити на 151",
+     "performer": null,
+     "other_machine": "151",
+     "machine_kept_running": null,
+     "hours": null
+    }
+   ]
+  },
+  {
+   "machine": "321",
+   "operator": "Демидов",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": null,
+   "operator_norm_hours": null,
+   "cuts": 3,
+   "subs_count": null,
+   "subs_fio": null,
+   "lines": [
+    {
+     "assortment": null,
+     "client": null,
+     "order_no": null,
+     "panels": null,
+     "counter_start": 125250,
+     "counter_end": 125370,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:00",
+     "end": "07:08",
+     "kind": "работа",
+     "reason": "начало смены, осмотр машины, инструктаж Петровского О. по поводу нового задания",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:09",
+     "end": "07:20",
+     "kind": "остановка",
+     "reason": "сошла 157 шпуля, срез 729 из 760, навивка и установка шпули",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:21",
+     "end": "07:32",
+     "kind": "остановка",
+     "reason": "сошла 158,159 шпуля, срез 733 из 760, навивка и установка 2 шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:32",
+     "end": "07:41",
+     "kind": "остановка",
+     "reason": "сошла 160 шпуля, срез 736 из 180, навивка и установка шпули",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:42",
+     "end": "07:53",
+     "kind": "остановка",
+     "reason": "сошла 161,162 шпуля, срез 744 из 760, навивка и установка 2 шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:53",
+     "end": "08:03",
+     "kind": "остановка",
+     "reason": "сошла 163 шпуля, срез 746 из 760, навивка и установка шпули",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:05",
+     "end": "08:18",
+     "kind": "остановка",
+     "reason": "сошла 164, 165 шпуля, срез 754 из 760, навивка и установка шпули",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:19",
+     "end": "08:20",
+     "kind": "остановка",
+     "reason": "срез 761 из 760, общ.сч 125250",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:20",
+     "end": "18:40",
+     "kind": "подмена",
+     "reason": "машина в стопе на подмену, навивка шпуль, транспортировка полных катушек к шпульному столу, подготовка катушек (весом ± 1,400 кг)",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:25",
+     "end": "08:30",
+     "kind": "навивка",
+     "reason": "приступил к навивке шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:30",
+     "end": "08:35",
+     "kind": "работа",
+     "reason": "транспортировка пустых шпуль к шпульному столу",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "08:35",
+     "end": "10:10",
+     "kind": "навивка",
+     "reason": "навивка шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "10:10",
+     "end": "12:00",
+     "kind": "работа",
+     "reason": "транспортировка резервных больших катушек со шпульника к шпульному столу, некорректная работа 2 шпинделя",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:00",
+     "end": "12:45",
+     "kind": "обед",
+     "reason": "обед",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "12:45",
+     "end": "14:00",
+     "kind": "навивка",
+     "reason": "навивка шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "14:00",
+     "end": "14:00",
+     "kind": "наладка",
+     "reason": "наладчик Шалыминовым Н заменил верхний ролик и подтянул тормоза",
+     "performer": "Шалыминов",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "14:13",
+     "end": "14:23",
+     "kind": "работа",
+     "reason": "поменял 2 большие катушки со шпульника на маленькие",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "14:52",
+     "end": "15:07",
+     "kind": "работа",
+     "reason": "замена ещё 3 больших катушек со шпулярника на маленьких для навивки шпуль",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "18:40",
+     "end": "19:00",
+     "kind": "работа",
+     "reason": "культура производства",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": null,
+     "end": null,
+     "kind": "навивка",
+     "reason": "Каленюк 17 шпулей (наладочные)",
+     "performer": "Каленюк",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": null,
+     "end": null,
+     "kind": "навивка",
+     "reason": "Петровский 1 шпуля",
+     "performer": "Петровский",
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    }
+   ]
+  },
+  {
+   "machine": "601",
+   "operator": null,
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": null,
+   "operator_norm_hours": null,
+   "cuts": null,
+   "subs_count": null,
+   "subs_fio": null,
+   "lines": [],
+   "events": [
+    {
+     "start": "07:00",
+     "end": "19:00",
+     "kind": "остановка",
+     "reason": "машина в инженерной службе до 01.10",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    }
+   ]
+  },
+  {
+   "machine": "98",
+   "operator": "Белякова",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "operator_norm_hours": null,
+   "cuts": 7,
+   "subs_count": 2,
+   "subs_fio": null,
+   "lines": [
+    {
+     "assortment": null,
+     "client": null,
+     "order_no": null,
+     "panels": null,
+     "counter_start": 21563900,
+     "counter_end": 21563900,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "07:00",
+     "end": null,
+     "kind": "работа",
+     "reason": "развито 170 шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:00",
+     "end": null,
+     "kind": "работа",
+     "reason": "навито 170 шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "10:20",
+     "end": "11:10",
+     "kind": "подмена",
+     "reason": "подмена 250 шп",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": null,
+     "end": null,
+     "kind": "работа",
+     "reason": "развито 250 шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": null,
+     "end": null,
+     "kind": "работа",
+     "reason": "навито 250 шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "16:50",
+     "end": "17:35",
+     "kind": "подмена",
+     "reason": "подмена 250 шп",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": null,
+     "end": null,
+     "kind": "работа",
+     "reason": "развито 80 шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": null,
+     "end": null,
+     "kind": "работа",
+     "reason": "навито 80 шпулей",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    },
+    {
+     "start": "07:00",
+     "end": "19:00",
+     "kind": "работа",
+     "reason": "замена шпулярника в течении смены, 26 машина в подработке",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    }
+   ]
+  },
+  {
+   "machine": "14тр",
+   "operator": null,
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": null,
+   "operator_norm_hours": null,
+   "cuts": null,
+   "subs_count": null,
+   "subs_fio": null,
+   "lines": [],
+   "events": [
+    {
+     "start": "07:00",
+     "end": "19:00",
+     "kind": "остановка",
+     "reason": "в стопе до 15.10.2026г. инж. служба",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null,
+     "hours": null
+    }
+   ]
+  },
+  {
+   "machine": "15тр",
+   "operator": null,
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": null,
+   "operator_norm_hours": null,
+   "cuts": null,
+   "subs_count": null,
+   "subs_fio": null,
+   "lines": [],
+   "events": []
+  },
+  {
+   "machine": "121",
+   "operator": null,
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": null,
+   "operator_norm_hours": null,
+   "cuts": null,
+   "subs_count": null,
+   "subs_fio": null,
+   "lines": [],
+   "events": []
+  }
+ ],
+ "warnings": [
+  "станок №91: ИИ не вернул данных, хотя станок есть в переписке — цифры по нему в отчёт не попали"
+ ],
+ "not_parsed": [
+  "91"
+ ]
+}

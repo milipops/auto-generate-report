@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Производственные отчёты — локальный сайт</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>Производственные отчёты</h1>
+  </div>
+  <div class="badges">
+    <span id="aiBadge" class="badge">ИИ: —</span>
+    <span id="ocrBadge" class="badge">OCR: —</span>
+    <span id="todayBadge" class="badge">Смена: —</span>
+  </div>
+</header>
+
+<main>
+  <!-- 1. Приём данных -->
+  <section class="card">
+    <h2>1. Данные смены</h2>
+
+    <div class="row two">
+      <div>
+        <label for="text">Сообщением</label>
+        <textarea id="text" rows="6"
+          placeholder="151 машина&#10;08:46 начало работы, Об.сч.: 865637&#10;Ср. сч.: 1362 из 2030&#10;Конец смены 20:00, Об.сч.: 902110"></textarea>
+        <div class="row">
+          <span>Станок (если не указан в тексте)</span>
+          <input id="machine" class="small" placeholder="151">
+        </div>
+        <button id="sendText" class="primary">Отправить текст</button>
+      </div>
+      <div id="drop" class="drop">
+        <strong>Файл с перепиской</strong>
+        <span class="hint">перетащите сюда или выберите ниже — выгрузка чата
+          .txt / .csv, Word, Excel, JSON, PDF</span>
+        <input id="files" type="file" multiple>
+        <label class="row">
+          <span>Подпись к файлу</span>
+          <input id="fileCaption" placeholder="например: смена за 22.09, 151 и 251">
+        </label>
+        <button id="sendFiles" class="primary">Отправить файл</button>
+      </div>
+    </div>
+
+    <div id="intakeErr" class="status" hidden></div>
+    <div id="intakeLog" class="log" hidden></div>
+  </section>
+
+  <!-- 2. Отчёт за дату -->
+  <section class="card">
+    <h2>2. Отчёт за дату</h2>
+    <p class="hint">Выберите число — соберётся отчёт по накопленному за него.</p>
+    <div id="shifts" class="dates"></div>
+    <div class="row btns">
+      <button id="buildBtn" class="primary">Собрать отчёт за выбранную дату</button>
+      <button id="rebuildBtn">Пересобрать без ИИ</button>
+      <button id="buildLatest">Собрать за последнюю смену</button>
+      <button id="refreshShifts">Обновить список</button>
+    </div>
+    <p class="hint">«Собрать отчёт» спрашивает ИИ — это деньги и минуты.
+      «Пересобрать без ИИ» берёт разбор, который модель уже отдавала за эту
+      дату, и пересчитывает только часы и файлы: бесплатно, секунды. Им и
+      пользуются, когда правила расчёта поменялись.</p>
+    <div id="buildStatus" class="status" hidden></div>
+    <div id="buildLog" class="log" hidden></div>
+    <div id="buildFiles" class="files" hidden></div>
+  </section>
+
+  <!-- 3. Готовые файлы -->
+  <section class="card">
+    <h2>3. Готовые файлы</h2>
+    <p class="hint">История: за какие смены отчёт уже собран. Файлы лежат на
+      диске — ИИ повторно не запрашивается, это бесплатно.</p>
+    <div id="archive" class="dates"></div>
+    <div id="archiveLog" class="log" hidden></div>
+    <div id="archiveFiles" class="files" hidden></div>
+  </section>
+
+  <!-- 4. Сводный отчёт и очистка -->
+  <section class="card">
+    <h2>4. Сводный отчёт и очистка смены</h2>
+    <div class="row two">
+      <div>
+        <p class="hint">Один Excel, лист на каждую дату выбранного периода.
+          Каждая смена — отдельный запрос к ИИ, это дольше отчёта за день.</p>
+        <div class="row">
+          <label for="periodFrom">С</label>
+          <select id="periodFrom"></select>
+          <label for="periodTo">По</label>
+          <select id="periodTo"></select>
+        </div>
+        <p class="hint" id="periodInfo"></p>
+        <button id="periodBtn" class="primary">Собрать сводный отчёт за период</button>
+      </div>
+      <div>
+        <p class="hint">Стереть накопленное за дату — например, если прислали
+          лишнее или файл нужно прислать исправленным. Готовые файлы в архиве
+          останутся.</p>
+        <button id="resetBtn" class="danger">Очистить выбранную смену</button>
+      </div>
+    </div>
+    <div id="periodStatus" class="status" hidden></div>
+    <div id="periodLog" class="log" hidden></div>
+    <div id="periodFiles" class="files" hidden></div>
+  </section>
+
+  <!-- 5. Журнал -->
+  <section class="card">
+    <h2>5. Журнал</h2>
+    <p class="hint">Что и когда принималось и чем кончилась каждая сборка. По
+      нему видно, какой файл или сообщение попали в отчёт за дату.</p>
+    <h3>Загрузки</h3>
+    <div class="table-wrap"><table id="uploadsTable"></table></div>
+    <h3>Сборки отчётов</h3>
+    <div class="table-wrap"><table id="reportsTable"></table></div>
+  </section>
+
+  <!-- 6. Помощь -->
+  <section class="card">
+    <details id="help">
+      <summary>Как этим пользоваться</summary>
+      <pre id="helpText">загрузка…</pre>
+    </details>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>Данные смены: <code>data/shifts/</code> · готовые файлы:
+    <code>data/reports/</code> · журнал: <code>web_database.db</code></span>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+ "date": "26.09.2026",
+ "machines": [
+  {
+   "machine": "98",
+   "operator": "Симонова",
+   "operator2": null,
+   "operator2_start": null,
+   "operator_start": null,
+   "first_info_time": null,
+   "brand": null,
+   "operator_shift_end": "19:00",
+   "operator_norm_hours": null,
+   "cuts": 4,
+   "subs_count": 1,
+   "subs_fio": null,
+   "lines": [
+    {
+     "assortment": "187×3-250,5-51 зел",
+     "client": "СКЛАД",
+     "order_no": "49",
+     "panels": null,
+     "counter_start": 21563900,
+     "counter_end": 21574050,
+     "counter_start_mid_shift": false
+    }
+   ],
+   "events": [
+    {
+     "start": "10:00",
+     "end": "11:10",
+     "kind": "остановка",
+     "reason": "намотало полотно на вытяжной вал",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "10:00",
+     "end": "11:10",
+     "kind": "работа",
+     "reason": "работаю на 26 машине",
+     "performer": "Симонова",
+     "other_machine": "26",
+     "machine_kept_running": null
+    },
+    {
+     "start": "12:20",
+     "end": "13:10",
+     "kind": "подмена",
+     "reason": "подмена",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    },
+    {
+     "start": "07:00",
+     "end": "19:00",
+     "kind": "работа",
+     "reason": "замена шпулярника, 26 машина в подработке",
+     "performer": null,
+     "other_machine": null,
+     "machine_kept_running": null
+    }
+   ]
+  }
+ ],
+ "warnings": []
+}

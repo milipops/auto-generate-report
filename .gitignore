@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+bot_database.db
+
+# Накопленные за смену сообщения и фото (рабочие данные, не код)
+data/
+
+# Сборка сайта в .exe (создаётся командой из README, в репозиторий не идёт)
+*.exe
+*.exe.old*
+
+# Одноразовые probe/diff скрипты и их дампы (в себе содержат реальные данные смен)
+scratch/
+_*.py
+_*.out
+_*.txt
+tools_render_day_probe.py
+test_output.txt
+
+# Рабочие Excel с данными смен
+*.xlsx
